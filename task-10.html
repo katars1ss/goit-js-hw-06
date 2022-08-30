@@ -15,9 +15,21 @@
       <button type="button" data-create>Create</button>
       <button type="button" data-destroy>Destroy</button>
     </div>
+    
+    <div class="disco__wrapper" style="display: flex;">
+      <div id="takeOnMe" style="display: flex; flex-direction: column; align-items: center;">
+        <h2>Play me</h2>
+        <!-- <video src="https://vimeo.com/75682933"></video> -->
+        <iframe id="takeOnMe__iframe" src="https://player.vimeo.com/video/75682933?h=6786c60dad&title=0&byline=0&portrait=0" width="427" height="320"
+          frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+        <p><a href="https://vimeo.com/75682933">A-HA Take On Me</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+      </div>
+      <div id="boxes" style="overflow: hidden; width: 100%;"></div>
+    </div>
 
-    <div id="boxes"></div>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/gsap.min.js"
+      integrity="sha512-GQ5/eIhs41UXpG6fGo4xQBpwSEj9RrBvMuKyE2h/2vw3a9x85T1Bt0JglOUVJJLeyIUl/S/kCdDXlE/n7zCjIg=="
+      crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="js/task-10.js" type="module"></script>
   </body>
 </html>
